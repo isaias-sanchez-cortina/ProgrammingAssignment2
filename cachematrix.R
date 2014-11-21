@@ -5,7 +5,7 @@
 #-This code defines a makeCacheMatrix object.
 #  This object implements function calls to get and set a matrix 
 #  and the corresponding inverse matrix inside the object.
-# Additionaly, an exterinal function cacheSolve, 
+# Additionaly, an external function cacheSolve, 
 #  can re-compute the inverse matrix in makeCacheMatrix.
 #  The computation will take place only if necessary, 
 #  for instance, after a  $set(...) call.
