@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL        # Initializes to empty the inverse matrix
   set <- function(y) { 
     x <<- y          # Reset matrix: Use <<- to access matrix "x" in parent environment
-    m <<- NULL       # Each time we reset the matrix, empty the cached inverse
+    inv <<- NULL       # Each time we reset the matrix, empty the cached inverse
   }
   get <- function() x
   getinv <- function() inv
